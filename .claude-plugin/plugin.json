@@ -1,0 +1,10 @@
+{
+  "name": "linkedin",
+  "version": "0.1.0",
+  "description": "Connect Claude to LinkedIn: publish, edit and delete posts, comment and react, manage company pages, read post and follower analytics, and build job searches through LinkedIn's official API.",
+  "author": { "name": "accout8485-a11y" },
+  "homepage": "https://github.com/accout8485-a11y/linkedin",
+  "repository": "https://github.com/accout8485-a11y/linkedin",
+  "license": "MIT",
+  "keywords": ["linkedin", "social", "analytics", "jobs", "mcp"]
+}

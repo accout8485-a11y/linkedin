@@ -1,0 +1,11 @@
+{
+  "name": "linkedin",
+  "owner": { "name": "accout8485-a11y" },
+  "plugins": [
+    {
+      "name": "linkedin",
+      "source": "./",
+      "description": "LinkedIn posts, engagement, company pages, analytics and job search for Claude."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "linkedin": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/server.js"],
+      "env": {
+        "LINKEDIN_CLIENT_ID": "${LINKEDIN_CLIENT_ID:-}",
+        "LINKEDIN_CLIENT_SECRET": "${LINKEDIN_CLIENT_SECRET:-}",
+        "LINKEDIN_REDIRECT_URI": "${LINKEDIN_REDIRECT_URI:-http://localhost:8765/callback}",
+        "LINKEDIN_SCOPES": "${LINKEDIN_SCOPES:-}",
+        "LINKEDIN_ACCESS_TOKEN": "${LINKEDIN_ACCESS_TOKEN:-}",
+        "LINKEDIN_API_VERSION": "${LINKEDIN_API_VERSION:-}",
+        "LINKEDIN_TOKEN_PATH": "${LINKEDIN_TOKEN_PATH:-}"
+      }
+    }
+  }
+}
